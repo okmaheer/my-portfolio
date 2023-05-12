@@ -35,7 +35,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/single-project/:projectId',
+		path: '/projects/project/:projectId',
 		name: 'Maheer Project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route

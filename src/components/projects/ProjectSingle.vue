@@ -7,7 +7,7 @@ export default {
 <template>
 	
 	<router-link
-		:to="'/projects/single-project/'+project.id"
+		:to="'/projects/project/'+project.id"
 		class="rounded-xl  h-[300px] shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>

@@ -18,13 +18,13 @@ const projects = [
 		id: 3,
 		title: 'Open Bazar',
 		category: 'Laravel / Vue js',
-		img: require('@/assets/images/ui-project-1.jpg'),
+		img: require('@/assets/images/open-bazar-1.png'),
 	},
 	{
 		id: 4,
 		title: 'ASPCA',
 		category: 'Laravel',
-		img: require('@/assets/images/ui-project-2.jpg'),
+		img: require('@/assets/images/aspca-1.png'),
 	},
 
 ];
