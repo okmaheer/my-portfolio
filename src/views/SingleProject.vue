@@ -1,3 +1,18 @@
+<template>
+	<div class="container mx-auto mt-10 sm:mt-20">
+		<!-- Project header -->
+		<ProjectHeader :singleProjectHeader="project" />
+
+		<!-- Project gallery -->
+		<ProjectGallery :projectImages="projectData.projectImages" />
+
+		<!-- Project information -->
+		<ProjectInfo :projectInfo="projectInfo" />
+
+		<!-- Project related projects -->
+		<ProjectRelatedProjects :relatedProject="relatedProject" />
+	</div>
+</template>
 <script>
 import feather from 'feather-icons';
 import ProjectHeader from '../components/projects/ProjectHeader.vue';
@@ -74,21 +89,5 @@ export default {
 	methods: {},
 };
 </script>
-
-<template>
-	<div class="container mx-auto mt-10 sm:mt-20">
-		<!-- Project header -->
-		<ProjectHeader :singleProjectHeader="project" />
-
-		<!-- Project gallery -->
-		<ProjectGallery :projectImages="projectData.projectImages" />
-
-		<!-- Project information -->
-		<ProjectInfo :projectInfo="projectInfo" />
-
-		<!-- Project related projects -->
-		<ProjectRelatedProjects :relatedProject="relatedProject" />
-	</div>
-</template>
 
 <style scoped></style>

@@ -12,12 +12,12 @@ const projects = [
 		id: 2,
 		title: 'Diesel Parts',
 		category: 'Laravel / Vue js',
-		img: require('@/assets/images/diesel-repair-1.png'),
+		img: require('@/assets/images/diesel-parts-1.png'),
 	},
 	{
 		id: 3,
 		title: 'Open Bazar',
-		category: 'UI/UX Design',
+		category: 'Laravel / Vue js',
 		img: require('@/assets/images/ui-project-1.jpg'),
 	},
 	{
