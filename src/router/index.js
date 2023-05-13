@@ -36,7 +36,7 @@ const routes = [
 	},
 	{
 		path: '/projects/project/:projectId',
-		name: 'Maheer Project',
+		name: 'project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
@@ -45,7 +45,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Maheer - Single Project',
+			title: 'Maheer - Project',
 		},
 	},
 	{

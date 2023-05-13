@@ -21,11 +21,30 @@ const projects = [
 		img: require('@/assets/images/open-bazar-1.png'),
 	},
 	{
+		id: 6,
+		title: 'Portfolio Vue Site',
+		category: 'Vue js',
+		img: require('@/assets/images/portfolio-1.png'),
+	},
+	{
 		id: 4,
 		title: 'ASPCA',
 		category: 'Laravel',
 		img: require('@/assets/images/aspca-1.png'),
 	},
+	{
+		id: 5,
+		title: 'Talenter Hunters',
+		category: 'Laravel',
+		img: require('@/assets/images/talent-hunter-1.png'),
+	},
+	{
+		id: 7,
+		title: 'Account ERP SASS',
+		category: 'Laravel',
+		img: require('@/assets/images/account-1.png'),
+	},
+
 
 ];
 

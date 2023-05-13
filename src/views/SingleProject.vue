@@ -35,13 +35,12 @@ export default {
 			projectData: {},
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
-				relatedProjects:projects,
+				relatedProjects: projects,
 			},
 		};
 	},
 	computed: {
 		projectInfo() {
-			console.log(this.projectData.projectInfo);
 			return this.projectData.projectInfo;
 		}
 	},
@@ -59,7 +58,22 @@ export default {
 			}
 		})
 
-		console.log("here")
+	},
+	watch: {
+		'$route.params.projectId': function (newProjectId, ) {
+			// do something when the projectId changes
+
+			this.project = projects.find((project) => {
+				if (project.id == newProjectId) {
+					return project
+				}
+			})
+			this.projectData = projectsData.find((data) => {
+				if (data.project_id == newProjectId) {
+					return data
+				}
+			})
+		}
 	},
 	updated() {
 		feather.replace();
