@@ -440,7 +440,7 @@ const projectsData = [
                 {
                     id: 2,
                     title: 'Services',
-                    details: 'Laravel / Vue js',
+                    details: 'Laravel',
                 },
                 {
                     id: 3,
