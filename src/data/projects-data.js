@@ -493,7 +493,7 @@ const projectsData = [
                 {
                     id: 1,
                     details:
-                        'As a Laravel developer, I had the opportunity to work on an exciting project from scratch. The project was a web application that aimed to solve a specific problem for a client in the healthcare industry. My role in the project was to lead the backend development effort and work closely with the frontend developers to deliver a high-quality, scalable, and secure application.'
+                        'As a Laravel developer, I had the opportunity to work on an exciting project from scratch. The project was a web application that aimed to solve a specific problem for a client in the NGO industry for animals. My role in the project was to lead the backend development effort and work closely with the frontend developers to deliver a high-quality, scalable, and secure application.'
                 },
                 {
                     id: 2,
