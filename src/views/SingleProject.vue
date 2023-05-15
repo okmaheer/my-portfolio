@@ -11,6 +11,9 @@
 
 		<!-- Project related projects -->
 		<ProjectRelatedProjects :relatedProject="relatedProject" />
+
+
+		
 	</div>
 </template>
 <script>
